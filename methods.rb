@@ -20,7 +20,12 @@
 #
 # TODO - write sleep_in?
 
-
+def sleep_in?(weekday, vacation)
+	if vacation
+		return true
+	end
+	return !weekday
+end
 # monkey_trouble?
 #
 # We have two monkeys, a and b, and the parameters a_smile and b_smile 
@@ -34,7 +39,6 @@
 #   * b_smiling   - true only if monkey b is smiling
 #
 # TODO - write monkey_trouble?
-
 
 # sum_double
 #
