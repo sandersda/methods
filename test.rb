@@ -23,36 +23,36 @@ describe 'Methods' do
 
   end
   
-#   describe 'monkey_trouble' do
+  describe 'monkey_trouble' do
 
-#     it 'is trouble when both monkeys are smiling' do
-#       monkey_trouble?(false, false).must_equal(true)
-#     end
+    it 'is trouble when both monkeys are smiling' do
+      monkey_trouble?(false, false).must_equal(true)
+    end
 
-#     it 'is not trouble when only A is smiling' do
-#       monkey_trouble?(true, false).must_equal(false)
-#     end
+    it 'is not trouble when only A is smiling' do
+      monkey_trouble?(true, false).must_equal(false)
+    end
 
-#     it 'is not trouble when only B is smiling' do
-#       monkey_trouble?(false, true).must_equal(false)
-#     end
+    it 'is not trouble when only B is smiling' do
+      monkey_trouble?(false, true).must_equal(false)
+    end
 
-#     it 'is trouble when neither monkey is smiling' do
-#       monkey_trouble?(false, false).must_equal(true)
-#     end
+    it 'is trouble when neither monkey is smiling' do
+      monkey_trouble?(false, false).must_equal(true)
+    end
 
-#   end
+  end
 
-#   describe 'sum_double' do
+  # describe 'sum_double' do
     
-#     it 'finds the sum' do
-#       sum_double(1, 2).must_equal(3)
-#     end
+  #   it 'finds the sum' do
+  #     sum_double(1, 2).must_equal(3)
+  #   end
 
-#     it 'doubles the sum when the numbers are the same' do
-#       sum_double(3, 3).must_equal(12)
-#     end
+  #   it 'doubles the sum when the numbers are the same' do
+  #     sum_double(3, 3).must_equal(12)
+  #   end
 
-#   end
+  # end
 
  end

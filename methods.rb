@@ -39,7 +39,13 @@ end
 #   * b_smiling   - true only if monkey b is smiling
 #
 # TODO - write monkey_trouble?
-
+def monkey_trouble?(a_smiling, b_smiling)
+	if a_smiling and b_smiling or !a_smiling and !b_smiling
+		return true
+	else
+		return false
+	end
+end
 # sum_double
 #
 # Given two int values, return their sum. Unless the two values are the same,
