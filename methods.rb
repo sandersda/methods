@@ -90,6 +90,20 @@ end
 #
 # TODO - write blackjack (tests first)
 
+def blackjack(a, b)
+	if a > 21 and b > 21
+		return 0
+	end
+	if a > b and a < 22
+		return a
+	elsif b > a and b < 22
+		return b
+	elsif b < a
+		return b
+	else
+		return a
+	end
+end
 
 # n_twice
 #
@@ -106,6 +120,15 @@ end
 #
 # TODO - write n_twice (tests first)
 
+def n_twice(str, n)
+	if str == "" or str.length <= n 
+		return str + str
+	end
+	str_front = str[0..(n - 1)]
+	str_back = str[str.length - n..str.length - 1]
+	return str_front + str_back
+end
+
 
 # close_far
 #
@@ -120,3 +143,8 @@ end
 #   * c - an integer
 #
 # TODO - write close_far (tests first)
+
+
+def close_far(a, b, c)
+
+end
